@@ -1791,7 +1791,7 @@
 			input[type="reset"],
 			button,
 			.button {
-				font-size: 0.85em;
+				font-size: 1.5em;
 				letter-spacing: 2px;
 				padding: 0.85em 2.75em 0.85em 2.75em;
 			}
@@ -1956,7 +1956,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0 10em 0;
+				padding: 5em 0 6.8em 0;
 			}
 
 				#banner p {
@@ -2522,13 +2522,13 @@
 }
 
 div#contai {
-  height: 800px;
+  height: 650px;
   width: 1200px;
   border:2px solid #000;
   overflow-x: scroll;
  }
 svg#svg {
-  height: 100px;
+  height: 100%;
   width: 100%;
   border:1px dotted #ccc;
   background-color: #ccc;
@@ -2543,4 +2543,20 @@ svg#svg {
   height: 800px;
   width: 1200px;
   border:2px solid #000;
+}
+
+#carte1, #carte2, #carte3, #carte4, #carte5 {
+	width: 1200px;
+}
+
+.tab {
+	margin-left: 40px;
+}
+
+.liste {
+	list-style: disc;
+}
+
+.prel {
+	margin-bottom: 5px;
 }

@@ -21,31 +21,32 @@
 					<div id="header" class="container">
 
 						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">La Tablette Numerique</a></h1>
+							<h1 id="logo"><a href="index.html"><span class="icon fa-tablet" style="color: blue"></span><span class="icon fa-tablet" style="color: #EEEEEE"></span><span class="icon fa-tablet" style="color: red"></span>        La Tablette Numerique</a></h1>
 							<p>au secours de l'école de la République ?</p>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a class="icon fa-info" href="left-sidebar.html"><span>A propos</span></a></li>
+									<li><a class="icon fa-info" href="propos.html"><span>A propos</span></a></li>
 									<li>
 										<a href="#" class="icon fa-eye"><span>Vue Globale</span></a>
 										<ul>
+											<li><a href="debutglobal.html">Un débat loin d'être simple</a></li>
 											<li><a href="arbredesdebats.html">Arbre des débats</a></li>
-											<li><a href="carteacteur.html">Carte des acteurs</a></li>
 											<li><a href="timeline.html">Frise chronologique</a></li>
+											<li><a href="carteacteur.html">Carte des acteurs</a></li>
 										</ul>
 									</li>
 									<li><a class="icon fa-home" href="index.html"><span>Accueil</span></a></li>
 									<li>
-										<a href="#" class="icon fa-file-text"><span>Rapports</span></a>
+										<a href="#" class="icon fa-file-text"><span>Approfondissement</span></a>
 										<ul>
 											<li><a href="rapportjuriste.html">Rapport juriste</a></li>
-											<li><a href="#">Rapport d'études</a></li>
-											<li><a href="#">Plan politique</a></li>
+											<li><a href="oecd.html">Bilan des premiers essais</a></li>
+											<li><a href="data/journaliste.pdf">Rapport du journaliste</a></li>
 										</ul>
 									</li>
-									<li><a class="icon fa-plus" href="no-sidebar.html"><span>Synthèse</span></a></li>
+									<li><a class="icon fa-plus" href="synthese.html"><span>Synthèse</span></a></li>
 								</ul>
 							</nav>
 
@@ -62,153 +63,129 @@
 									<header>
 										<h2>Carte des Acteurs</h2>
 									</header>
+									<FORM>
+									<INPUT id="bouton1" checked="checked" type= "radio" name="cartes" value="1" onclick="montrerCarte();"> carte 1
+									<INPUT id="bouton2" type= "radio" name="cartes" value="2" onclick="montrerCarte();"> carte 2
+									<INPUT id="bouton3" type= "radio" name="cartes" value="3" onclick="montrerCarte();"> carte 3
+									<INPUT id="bouton4" type= "radio" name="cartes" value="4" onclick="montrerCarte();"> carte 4
+									<INPUT id="bouton5" type= "radio" name="cartes" value="5" onclick="montrerCarte();"> carte 5
+									</FORM>
+
 									<div id="contai">
-										<object id="svg" type="image/svg+xml" data="data/carteActeur.svg">Carte des acteurs</object>
+										<object id="carte1" type="image/svg+xml" data="data/carteActeur.svg">Carte des acteurs</object>
+										<object id="carte2" type="image/svg+xml" data="data/carteActeur1.svg" style="display:none;">Carte dse acteurs</object>
+										<object id="carte3" type="image/svg+xml" data="data/carteActeur2.svg" style="display:none;">Carte dse acteurs</object>
+										<object id="carte4" type="image/svg+xml" data="data/carteActeur3.svg" style="display:none;">Carte dse acteurs</object>
+										<object id="carte5" type="image/svg+xml" data="data/carteActeur4.svg" style="display:none;">Carte dse acteurs</object>
 									</div>
-									<h3>And yeah, that's basically it</h3>
-									<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-									ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-									sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-									Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat
-									Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit ligula
-									vel quam viverra sit amet mollis tortor congue. Sed quis mauris sit amet
-									magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada in,
-									tristique at erat. Curabitur leo nibh, rutrum eu malesuada  in, tristique
-									at erat lorem ipsum dolor sit amet lorem ipsum sed consequat magna
-									tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros consequat
-									magna tempus</p>
-									<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-									ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-									sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-									Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
-									<h3>Accumsan lorem ipsum veroeros</h3>
-									<p>Consequat Phasellus laoreet massa id in, tristique at erat lorem
-									ipsum dolor sit amet lorem ipsum sed consequat magna tempus veroeros
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-									mollis tortor congue. Sed quis mauris sit amet magna.</p>
-									<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-									ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-									sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique.
-									Curabitur leo nibh, rutrum eu malesuada in, tristique at erat.</p>
-									<h3>Ligula suspcipit fusce veroeros</h3>
-									<p>Nullam dolore etiam sed massa id in, tristique at erat lorem
-									ipsum dolor sit amet lorem ipsum sed consequat magna tempus veroeros
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-									mollis tortor congue. Sed quis mauris sit amet magna.</p>
-									<p>Sed massa id justo mattis pharetra. Fusce suscipit
-									ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-									sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-									magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-									consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-									justo mattis pharetra. Fusce suscipit ligula vel quam viverra sit amet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan.</p>
+
+									<script>
+									function montrerCarte() {
+										var radios = document.getElementsByName('cartes');
+										for (var i = 0, length = radios.length; i < length; i++) {
+											if (radios[i].checked) 
+												document.getElementById('carte'+(i+1)).style.display= "block";
+											else 
+												document.getElementById('carte'+(i+1)).style.display= "none";
+										}
+									}
+									</script>
 								</article>
+
+						</div>
+						<div id="content">
+
+							<!-- Post -->
+								<article class="box post" style="margin-top: 50px;">
+									<FORM>
+									<INPUT id="bouton1" checked="checked" type= "radio" name="cartes" value="6" onclick="montrerCarte();"><span style="color: #aaccff; font-weight: bold;"> Acteurs du monde de l'enseignement</span>
+									<INPUT id="bouton2" type= "radio" name="cartes" value="7" onclick="montrerCarte();"><span style="color: #aaccff; font-weight: bold;"> Entreprises</span>
+									<INPUT id="bouton3" type= "radio" name="cartes" value="8" onclick="montrerCarte();"><span style="color: #aaccff; font-weight: bold;"> Les experts non directement liés au monde de l'enseignement</span>
+									<INPUT id="bouton4" type= "radio" name="cartes" value="9" onclick="montrerCarte();"><span style="color: #aaccff; font-weight: bold;"> Les acteurs politiques</span>
+									</FORM>
+
+									<p id="carte6" style="display:block; margin-top: 35px;">
+										<span class="tab"/>En première ligne, on trouve les professeurs. Témoins directs de la mise en place
+										des tablettes dans les classes pilotes, ils sont nombreux à s’exprimer sur le sujet. On
+										trouve également dans cette catégorie les parents d’élèves. Les arguments, qu’ils soient
+										favorables ou non aux tablettes à l’école, sont différents de ceux utilisés par les
+										professeurs.<br>
+										<span class="tab"/>Les arguments déployés par les enseignants sont majoritairement d’ordre
+										pédagogique et technique. Ils s’expriment surtout au travers des médias et par
+										l’intermédiaire de leurs syndicats. Les nombreux témoignages rapportés dans les
+										médias, ainsi que les positions variées des syndicats montrent que cette catégorie
+										d’acteurs est très divisée sur le sujet. Les modalités de déploiement des tablettes à
+										l’école sont sans doute le point le plus critiqué par les professeurs. Ainsi, beaucoup
+										d’enseignants favorables au numérique à l’école déplorent pourtant le plan lancé par
+										François Hollande en raison de la rapidité de sa mise en application.<br>
+										<span class="tab"/>Les parents d’élèves, quant à eux, sont moins divisés sur la question. Les associations les représentant sont majoritairement favorables à l’utilisation des
+										tablettes à l’école. Les arguments qu’ils utilisent ne sont pas d’ordre pédagogique mais
+										plutôt d’ordre technique ou social.
+									</p>
+									<p id="carte7" style="display:none; margin-top: 35px;">
+										<span class="tab"/>Les entreprises du numérique sont bien évidemment favorables aux tablettes numériques dans les écoles. Beaucoup pratiquent du lobbying auprès des politiques afin de pouvoir gagner des parts de marché et vendre leurs produits.
+									</p>
+									<p id="carte8" style="display:none; margin-top: 35px;">
+										<span class="tab"/>Dans cette catégorie, on trouve beaucoup d’acteurs divers, spécialisés dans des
+										champs variés. La plupart sont des spécialistes de l’enseignement, chargés d’évaluer les
+										politiques d’éducation (spécialistes de l’OCDE, spécialistes du numérique…) mais on
+										trouve aussi des spécialistes de la santé (psychologues, orthophonistes…). Leur avis est
+										la plupart du temps mesuré car il est très difficile d’évaluer précisément l’impact de
+										l’utilisation des tablettes à l’école sur les élèves. Leur but est surtout de mettre en garde
+										contre les dérives et les effets non désirés de telles mesures, ainsi que de réfléchir à la
+										façon d’intégrer le numérique à l’école.<br>
+										<span class="tab"/>D’un point de vue pédagogique, les différentes études menées ne permettent pas de
+										déterminer si l’utilisation des tablettes à l’école a un impact bénéfique ou non à l’école.
+										L’année scolaire n’étant pas terminée, il est encore trop tôt pour savoir précisément si
+										l’expérience des tablettes dans les classes pilotes a été un succès même si elles sont
+										scrutées par des experts du monde de l’enseignement. Une étude a toutefois était
+										effectuée par l’OCDE, qui a comparé de nombreux pays pour voir s’il existait une
+										corrélation entre l’utilisation du numérique à l’école et les résultats scolaires. Cette
+										étude n’a pas donné de résultats significatifs (Voir rapport étude). Ainsi, l’avis des
+										experts sur la question est mitigé. La plupart s’accordent à dire qu’il ne suffit pas
+										d’équiper les élèves en tablettes pour obtenir de réels progrès. En effet, il faut en
+										parallèle réfléchir sous quelles formes les utiliser et former les enseignants en
+										conséquence.<br>
+										<span class="tab"/>Beaucoup d’experts s’interrogent également sur les troubles qu’une utilisation
+										trop importante du numérique peut causer à l’élève. Le cyber-harcèlement ou encore les
+										atteintes à la vie privée sont des problèmes qui interpellent l’OCDE. Selon l’organisme,
+										une prévention plus importante doit accompagner les mises en place de plans
+										numériques à l’école. En plus du bien-être de l’élève, sa santé est aussi au coeur des
+										réflexions. Les spécialistes ne s’entendent pas pour le moment sur la question de savoir
+										si les ondes WIFI sont nocives pour les enfants. L’OMS estime que ces ondes sont
+										potentiellement cancérigènes mais d’autres organismes ont des conclusions différentes,
+										à l’instar de l’ANSES, pour qui ces ondes ne présentent pas de dangers particuliers.
+									</p>
+									<p id="carte9" style="display:none; margin-top: 35px;">
+										<span class="tab"/>On compte le gouvernement, qui est bien sûr totalement favorable aux tablettes à
+										l’école dans cette catégorie, mais aussi les députés, les sénateurs, et les responsables des
+										collectivités locales. De façon générale, les politiques sont plutôt en faveur du numérique à
+										l’école, même si là encore, les façons de faire font débat. C’est justement les modalités du
+										plan numérique annoncé par Hollande qui sont critiquées par ses détracteurs. Sans grande
+										surprise, l’opposition est opposée à ce plan à l’assemblée nationale et au sénat, tandis que la
+										majorité y est favorable. Ainsi le plan a été voté facilement.<br>
+										<span class="tab"/>Cette catégorie d’acteurs s’exprime dans des arènes très variées : au parlement bien
+										sûr, dans les médias, mais aussi sur le terrain, notamment pour les responsables locaux, en
+										rencontrant les acteurs du monde de l’enseignement.<br>
+										<span class="tab"/>Un des arguments majeurs avancé par le gouvernement pour défendre leur plan, outre
+										les arguments d’ordre pédagogique déjà évoqués, est qu’il permettra de réduire les inégalités
+										en permettant aux plus défavorisés d’avoir accès à une tablette. C’est avec cet argument que
+										s’articule toute la communication du gouvernement sur ce plan. Toutefois, d’autres politiciens
+										arguent que les inégalités entre les territoires et entre le public et le privé seront au contraire
+										creusées car ce sera aux collectivités locales de financer à moitié les équipements.
+									</p>
+
+									</article>
 
 						</div>
 					</div>
 				</div>
 
 			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div id="footer" class="container">
-						<header>
-							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
-						</header>
-						<div class="row">
-							<div class="6u 12u(mobile)">
-								<section>
-									<form method="post" action="#">
-										<div class="row 50%">
-											<div class="6u 12u(mobile)">
-												<input name="name" placeholder="Name" type="text" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input name="email" placeholder="Email" type="text" />
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
-											</div>
-										</div>
-									</form>
-								</section>
-							</div>
-							<div class="6u 12u(mobile)">
-								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<ul class="icons">
-												<li class="icon fa-home">
-													1234 Somewhere Road<br />
-													Nashville, TN 00000<br />
-													USA
-												</li>
-												<li class="icon fa-phone">
-													(000) 000-0000
-												</li>
-												<li class="icon fa-envelope">
-													<a href="#">info@untitled.tld</a>
-												</li>
-											</ul>
-										</div>
-										<div class="6u 12u(mobile)">
-											<ul class="icons">
-												<li class="icon fa-twitter">
-													<a href="#">@untitled-tld</a>
-												</li>
-												<li class="icon fa-instagram">
-													<a href="#">instagram.com/untitled-tld</a>
-												</li>
-												<li class="icon fa-dribbble">
-													<a href="#">dribbble.com/untitled-tld</a>
-												</li>
-												<li class="icon fa-facebook">
-													<a href="#">facebook.com/untitled-tld</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-					<div id="copyright" class="container">
-						<ul class="links">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<div id="footer-wrapper" style="padding-top: 20px; padding-bottom: 20px">
+					<div class="container">
+						<ul>
+							<li class="icon fa-copyright"><span style="margin-left: 4px" />groupe8-<strong>ETIC2016</strong></li>
 						</ul>
 					</div>
 				</div>
