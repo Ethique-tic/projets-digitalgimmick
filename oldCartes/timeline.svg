@@ -297,11 +297,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="1212.5542"
-     inkscape:cy="404.64082"
+     inkscape:zoom="1"
+     inkscape:cx="1095.8812"
+     inkscape:cy="703.71098"
      inkscape:document-units="cm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:snap-grids="true"
      inkscape:window-width="1596"
@@ -343,10 +343,9 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-166.53543)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
-       style="fill:#d5e5ff;fill-opacity:1"
+       style="fill:#d5e5ff;fill-opacity:1;"
        id="rect3340"
        width="1060.1105"
        height="70.721077"
@@ -1193,7 +1192,7 @@
        sodipodi:cy="512.92273"
        sodipodi:rx="11.984077"
        sodipodi:ry="16.500826"
-       d="m 371.78657,512.92273 c 0,9.11315 -5.36546,16.50083 -11.98408,16.50083 -6.61862,0 -11.98408,-7.38768 -11.98408,-16.50083 0,-9.11316 5.36546,-16.50083 11.98408,-16.50083 6.61862,0 11.98408,7.38767 11.98408,16.50083 z"
+       d="m 371.78657,512.92273 a 11.984077,16.500826 0 1 1 -23.96816,0 11.984077,16.500826 0 1 1 23.96816,0 z"
        transform="matrix(1.0348377,0,0,0.75157298,445.35807,372.51937)" />
     <text
        xml:space="preserve"
@@ -1273,7 +1272,7 @@
        sodipodi:cy="512.92273"
        sodipodi:rx="11.984077"
        sodipodi:ry="16.500826"
-       d="m 371.78657,512.92273 c 0,9.11315 -5.36546,16.50083 -11.98408,16.50083 -6.61862,0 -11.98408,-7.38768 -11.98408,-16.50083 0,-9.11316 5.36546,-16.50083 11.98408,-16.50083 6.61862,0 11.98408,7.38767 11.98408,16.50083 z"
+       d="m 371.78657,512.92273 a 11.984077,16.500826 0 1 1 -23.96816,0 11.984077,16.500826 0 1 1 23.96816,0 z"
        transform="matrix(1.0348377,0,0,0.75157298,445.35807,519.13356)" />
     <flowRoot
        xml:space="preserve"
@@ -1340,8 +1339,9 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Gouv"
-     style="display:inline;opacity:1"
-     transform="translate(0,141.73227)">
+     style="display:inline"
+     transform="translate(0,141.73227)"
+     sodipodi:insensitive="true">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3326"
@@ -1579,14 +1579,14 @@
     <g
        id="desc1"
        inkscape:label="#g3867"
-       style="opacity:0.98000004"
-       transform="translate(294.40457,-98.492839)">
+       style="opacity:0"
+       transform="translate(475.32111,-105.89145)">
       <path
          inkscape:label="#rect3274"
          inkscape:connector-curvature="0"
          id="rect3274"
          d="m 230.95566,502.27478 c -6.37166,0 -11.51276,-5.86886 -11.51276,-13.14245 l 0,-103.40261 c 0,-7.27357 5.1411,-13.14243 11.51276,-13.14243 l 34.63977,0 12.12138,-23.91116 15.11368,-29.93233 15.16442,29.93233 12.07066,23.91116 207.68647,0 c 6.37165,0 11.51278,5.86886 11.51278,13.14243 l 0,103.40261 c 0,7.27359 -5.14113,13.14245 -11.51278,13.14245 l -296.79638,0 z"
-         style="fill:#b3b3b3;opacity:0" />
+         style="fill:#b3b3b3" />
       <text
          xml:space="preserve"
          style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
@@ -1597,11 +1597,45 @@
            sodipodi:role="line"
            x="225.28722"
            y="391.92264"
-           id="tspan4943">Avril 2012: François Hollande annonce qu'il lancera </tspan><tspan
+           id="tspan4923"><tspan
+             x="225.28722"
+             y="391.92264"
+             id="tspan4925">Lancé en 2013, le label &quot;collège connecté&quot; </tspan></tspan><tspan
            sodipodi:role="line"
            x="225.28722"
            y="409.42264"
-           id="tspan7735">un grand plan numérique à l'école s'il est élu.</tspan></text>
+           id="tspan4927"><tspan
+             x="225.28722"
+             y="409.42264"
+             id="tspan4929">assure aux établissements sélectionnés </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="225.28722"
+           y="426.92264"
+           id="tspan4931"><tspan
+             x="225.28722"
+             y="426.92264"
+             id="tspan4933">une qualité des infrastructures et de </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="225.28722"
+           y="444.42264"
+           id="tspan4935"><tspan
+             x="225.28722"
+             y="444.42264"
+             id="tspan4937">l’équipement matériel et logiciel </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="225.28722"
+           y="461.92264"
+           id="tspan4939"><tspan
+             x="225.28722"
+             y="461.92264"
+             id="tspan4941">significativement supérieure à la moyenne </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="225.28722"
+           y="479.42264"
+           id="tspan4943"><tspan
+             x="225.28722"
+             y="479.42264"
+             id="tspan4945">nationale</tspan></tspan></text>
     </g>
     <g
        id="ens3"
@@ -1698,7 +1732,7 @@
     </g>
     <g
        id="desc2"
-       transform="translate(674.43125,-225.85432)"
+       transform="translate(458.43125,-233.85432)"
        inkscape:label="#g3896"
        style="opacity:0">
       <path
@@ -1720,42 +1754,42 @@
            id="tspan4949"><tspan
              x="391.93335"
              y="519.50781"
-             id="tspan4951">Septembre 2014: Najat Vallaud-Belkacem, ministre de </tspan></tspan><tspan
+             id="tspan4951">   De nouvelles ressources numériques </tspan></tspan><tspan
            sodipodi:role="line"
            x="391.93335"
            y="537.00781"
            id="tspan4953"><tspan
              x="391.93335"
              y="537.00781"
-             id="tspan4955">l'éducation nationale détaille le plan numérique pour </tspan></tspan><tspan
+             id="tspan4955">pédagogiques (projet de &quot;classe </tspan></tspan><tspan
            sodipodi:role="line"
            x="391.93335"
            y="554.50781"
            id="tspan4957"><tspan
              x="391.93335"
              y="554.50781"
-             id="tspan4959">l'école: tous les élèves à partir de la 5e seront équipés </tspan></tspan><tspan
+             id="tspan4959">connectée&quot;) ont été créés. L'offre des </tspan></tspan><tspan
            sodipodi:role="line"
            x="391.93335"
            y="572.00781"
            id="tspan4961"><tspan
              x="391.93335"
              y="572.00781"
-             id="tspan4963">d'une tablette.</tspan></tspan><tspan
+             id="tspan4963">services numériques à destination de la </tspan></tspan><tspan
            sodipodi:role="line"
            x="391.93335"
            y="589.50781"
            id="tspan4965"><tspan
              x="391.93335"
              y="589.50781"
-             id="tspan4967"> </tspan></tspan><tspan
+             id="tspan4967">communauté éducative, des élèves et des </tspan></tspan><tspan
            sodipodi:role="line"
            x="391.93335"
            y="607.00781"
            id="tspan4969"><tspan
              x="391.93335"
              y="607.00781"
-             id="tspan4971">.</tspan></tspan></text>
+             id="tspan4971">parents s'est également diversifiée.</tspan></tspan></text>
     </g>
     <g
        id="desc5"
@@ -1984,9 +2018,160 @@
              id="tspan6071">unique en Europe.</tspan></tspan></text>
     </g>
     <g
+       id="desc9"
+       inkscape:label="#g4223"
+       transform="matrix(0.98831432,0,0,1,489.44112,-105.89145)"
+       style="opacity:0">
+      <path
+         inkscape:label="#rect3274"
+         inkscape:connector-curvature="0"
+         id="desc1-1-5"
+         d="m 1044.4255,809.9859 c 4.0317,0 7.2846,-15.65686 7.2846,-35.06123 l 0,-275.85614 c 0,-19.40431 -3.2529,-35.06118 -7.2846,-35.06118 l -21.9179,0 -7.6698,-63.78987 -9.5629,-79.85309 -9.59532,79.85309 -7.6376,63.78987 -131.41202,0 c -4.03165,0 -7.28464,15.65687 -7.28464,35.06118 l 0,275.85614 c 0,19.40437 3.25299,35.06123 7.28464,35.06123 l 187.79554,0 z"
+         style="fill:#b3b3b3" />
+      <text
+         xml:space="preserve"
+         style="font-size:13.19718742px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
+         x="557.68427"
+         y="630.6228"
+         id="text5983"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0608321,0.94265622)"><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="511.00616"
+           id="tspan5989"><tspan
+             x="811.26483"
+             y="511.00616"
+             id="tspan5987">  Le  ministère de l'Éducation </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="565.48566"
+           id="tspan5993"><tspan
+             x="811.26483"
+             y="565.48566"
+             id="tspan5995">nationale a mis en ligne </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="592.72552"
+           id="tspan5997"><tspan
+             x="811.26483"
+             y="592.72552"
+             id="tspan5999">le site d'information </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="619.96533"
+           id="tspan6001"><tspan
+             x="811.26483"
+             y="619.96533"
+             id="tspan6003">ecolenumerique.educatio</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="647.20526"
+           id="tspan6005"><tspan
+             x="811.26483"
+             y="647.20526"
+             id="tspan6007">n.gouv.fr.  Destiné aux </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="674.44507"
+           id="tspan6009"><tspan
+             x="811.26483"
+             y="674.44507"
+             id="tspan6011">familles, aux équipes </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="701.68494"
+           id="tspan6013"><tspan
+             x="811.26483"
+             y="701.68494"
+             id="tspan6015">pédagogiques et aux élus </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="728.92474"
+           id="tspan6017"><tspan
+             x="811.26483"
+             y="728.92474"
+             id="tspan6019">locaux, il permet de </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="756.16455"
+           id="tspan6021"><tspan
+             x="811.26483"
+             y="756.16455"
+             id="tspan6023">suivre l'état </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="783.40448"
+           id="tspan6025"><tspan
+             x="811.26483"
+             y="783.40448"
+             id="tspan6027">d'avancement du plan </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="810.64429"
+           id="tspan6029"><tspan
+             x="811.26483"
+             y="810.64429"
+             id="tspan6031">numérique pour </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="811.26483"
+           y="837.88403"
+           id="tspan6033"><tspan
+             x="811.26483"
+             y="837.88403"
+             id="tspan6035">l'éducation. </tspan></tspan></text>
+    </g>
+    <g
+       id="desc4"
+       inkscape:label="#g4072"
+       style="opacity:0"
+       transform="translate(475.32111,-105.89145)">
+      <path
+         inkscape:label="#rect3274"
+         inkscape:connector-curvature="0"
+         id="desc1-1-1"
+         d="m 598.09055,522.66547 c -6.37166,0 -11.51276,-5.86886 -11.51276,-13.14245 l 0,-103.40261 c 0,-7.27357 5.1411,-13.14243 11.51276,-13.14243 l 34.63977,0 12.12138,-23.91116 15.11368,-29.93233 15.16442,29.93233 12.07066,23.91116 207.68647,0 c 6.37165,0 11.51278,5.86886 11.51278,13.14243 l 0,103.40261 c 0,7.27359 -5.14113,13.14245 -11.51278,13.14245 l -296.79638,0 z"
+         style="fill:#b3b3b3" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
+         x="592.42212"
+         y="412.31332"
+         id="text5809"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="592.42212"
+           y="412.31332"
+           id="tspan5811"><tspan
+             x="592.42212"
+             y="412.31332"
+             id="tspan5813">Le grand plan numérique annoncé le 2 </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.42212"
+           y="429.81332"
+           id="tspan5815"><tspan
+             x="592.42212"
+             y="429.81332"
+             id="tspan5817">septembre 2014 par le président de la </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.42212"
+           y="447.31332"
+           id="tspan5819"><tspan
+             x="592.42212"
+             y="447.31332"
+             id="tspan5821">République vise à lutter contre les </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.42212"
+           y="464.81332"
+           id="tspan5823"><tspan
+             x="592.42212"
+             y="464.81332"
+             id="tspan5825">inégalités sociales.</tspan></tspan></text>
+    </g>
+    <g
        id="desc7"
        inkscape:label="#g4156"
-       style="opacity:0.06018519"
+       style="opacity:0"
        transform="translate(475.32111,-105.89145)">
       <path
          id="rect4153"
@@ -2168,6 +2353,67 @@
              y="511.48764"
              id="tspan5857">numériques.</tspan></tspan></text>
     </g>
+    <g
+       id="desc3"
+       inkscape:label="#g4060"
+       style="opacity:0"
+       transform="translate(475.32111,-105.89145)">
+      <path
+         inkscape:label="#rect3274"
+         inkscape:connector-curvature="0"
+         id="desc1-1-84"
+         d="m 598.55492,507.58863 c -6.37166,0 -11.51276,-5.86886 -11.51276,-13.14245 l 0,-103.40261 c 0,-7.27357 5.1411,-13.14243 11.51276,-13.14243 l 34.63977,0 12.12138,-23.91116 15.11368,-29.93233 15.16442,29.93233 12.07066,23.91116 207.68647,0 c 6.37165,0 11.51278,5.86886 11.51278,13.14243 l 0,103.40261 c 0,7.27359 -5.14113,13.14245 -11.51278,13.14245 l -296.79638,0 z"
+         style="fill:#b3b3b3" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
+         x="592.88647"
+         y="397.23648"
+         id="text5783"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="592.88647"
+           y="397.23648"
+           id="tspan5785"><tspan
+             x="592.88647"
+             y="397.23648"
+             id="tspan5787"> A travers le Plan France très haut débit, </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.88647"
+           y="414.73648"
+           id="tspan5789"><tspan
+             x="592.88647"
+             y="414.73648"
+             id="tspan5791">une connexion internet de qualité sera </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.88647"
+           y="432.23648"
+           id="tspan5793"><tspan
+             x="592.88647"
+             y="432.23648"
+             id="tspan5795">assurée pour chaque école et </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.88647"
+           y="449.73648"
+           id="tspan5797"><tspan
+             x="592.88647"
+             y="449.73648"
+             id="tspan5799">établissement du second degré. Dès la </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.88647"
+           y="467.23648"
+           id="tspan5801"><tspan
+             x="592.88647"
+             y="467.23648"
+             id="tspan5803">rentrée 2014, 9 000 écoles, situées dans </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="592.88647"
+           y="484.73648"
+           id="tspan5805"><tspan
+             x="592.88647"
+             y="484.73648"
+             id="tspan5807">des zones non reliées à la fibre, accèdent à </tspan></tspan></text>
+    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4128"
@@ -2186,7 +2432,7 @@
        sodipodi:cy="598.18304"
        sodipodi:rx="12.922046"
        sodipodi:ry="14.537302"
-       d="m 361.81728,598.18304 c 0,8.02873 -5.7854,14.53731 -12.92205,14.53731 -7.13665,0 -12.92204,-6.50858 -12.92204,-14.53731 0,-8.02873 5.78539,-14.5373 12.92204,-14.5373 7.13665,0 12.92205,6.50857 12.92205,14.5373 z"
+       d="m 361.81728,598.18304 a 12.922046,14.537302 0 1 1 -25.84409,0 12.922046,14.537302 0 1 1 25.84409,0 z"
        transform="matrix(0.41130954,0,0,0.36560846,-213.91586,49.623597)" />
     <path
        sodipodi:type="arc"
@@ -2196,7 +2442,7 @@
        sodipodi:cy="512.92273"
        sodipodi:rx="11.984077"
        sodipodi:ry="16.500826"
-       d="m 371.78657,512.92273 c 0,9.11315 -5.36546,16.50083 -11.98408,16.50083 -6.61862,0 -11.98408,-7.38768 -11.98408,-16.50083 0,-9.11316 5.36546,-16.50083 11.98408,-16.50083 6.61862,0 11.98408,7.38767 11.98408,16.50083 z"
+       d="m 371.78657,512.92273 a 11.984077,16.500826 0 1 1 -23.96816,0 11.984077,16.500826 0 1 1 23.96816,0 z"
        transform="matrix(1.0348377,0,0,0.75157298,-462.33718,-513.80599)" />
     <rect
        style="fill:#ffaaaa;fill-opacity:1;display:inline"
@@ -2340,13 +2586,13 @@
          inkscape:connector-curvature="0"
          id="rect3684-5-3-1-91"
          d="m 409.78125,248.29699 c -6.4575,0 -11.6575,-5.25245 -11.6575,-11.76668 l 0,-112.99998 -0.2159,0 0.2159,-0.33334 0,-12.46666 c 0,-6.51423 5.2,-11.76668 11.6575,-11.76668 l 4.3536,0 7.0161,-10.66666 6.2606,10.66666 304.4637,0 c 6.4575,0 11.6576,5.25245 11.6576,11.76668 l 0,125.79998 c 0,6.51423 -5.2001,11.76668 -11.6576,11.76668 l -322.094,0 z"
-         style="opacity:0.80288462999999999;fill:#b3b3b3;fill-opacity:1;display:inline" />
+         style="opacity:0.80288463;fill:#b3b3b3;fill-opacity:1;display:inline" />
       <text
          sodipodi:linespacing="125%"
          id="text5598"
          y="124.09448"
          x="420"
-         style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.80288462999999999;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.80288463;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
          xml:space="preserve"><tspan
            id="tspan5600"
            y="124.09448"
@@ -2591,7 +2837,7 @@
       <path
          inkscape:connector-curvature="0"
          id="rect3684-5-3-1-24"
-         d="m -220.01449,-268.66999 c -5.16083,6e-4 -9.31667,-4.48173 -9.31667,-10.0425 l 0,-96.46066 -0.17254,4e-5 0.17254,-0.28459 0,-10.64197 c 0,-5.56077 4.15584,-10.0453 9.31667,-10.04638 l 3.47937,-10e-4 5.60727,-9.10661 5.00346,9.10439 243.326881,-0.0508 c 5.160823,-6e-4 9.316734,4.48173 9.316734,10.0425 l 0,107.38717 c 0,5.56077 -4.155911,10.04531 -9.316734,10.04639 l -257.416981,0.0537 z"
+         d="m -220.01449,-268.66999 c -5.16083,6e-4 -9.31667,-4.48173 -9.31667,-10.0425 l 0,-96.46066 -0.17254,4e-5 0.17254,-0.28459 0,-10.64197 c 0,-5.56077 4.15584,-10.0453 9.31667,-10.04638 l 3.47937,-0.001 5.60727,-9.10661 5.00346,9.10439 243.326881,-0.0508 c 5.160823,-6e-4 9.316734,4.48173 9.316734,10.0425 l 0,107.38717 c 0,5.56077 -4.155911,10.04531 -9.316734,10.04639 l -257.416981,0.0537 z"
          style="fill:#ffaaaa;fill-opacity:1;display:inline" />
       <text
          xml:space="preserve"
@@ -3208,7 +3454,7 @@
          style="fill:#ffaaaa;fill-opacity:1;display:inline" />
       <text
          xml:space="preserve"
-         style="font-size:14.81291198999999992px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
+         style="font-size:14.81291199px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro"
          x="832.8656"
          y="-380.01306"
          id="text6777"
@@ -4082,7 +4328,7 @@
              dx="5.4960938" /></tspan></text>
     </g>
     <rect
-       style="opacity:0.75000000000000000;fill:#ffaaaa;fill-opacity:1"
+       style="opacity:0.75;fill:#ffaaaa;fill-opacity:1"
        id="rect7178-9-7-0-8-512"
        width="10.629921"
        height="10.629921"
@@ -4593,7 +4839,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="point"
-     transform="translate(0,141.73227)">
+     transform="translate(0,141.73227)"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="star"
        style="opacity:0.75;fill:#ffff00;fill-opacity:1;display:inline"
@@ -4623,7 +4870,7 @@
        sodipodi:cy="598.18304"
        sodipodi:rx="12.922046"
        sodipodi:ry="14.537302"
-       d="m 361.81728,598.18304 c 0,8.02873 -5.7854,14.53731 -12.92205,14.53731 -7.13665,0 -12.92204,-6.50858 -12.92204,-14.53731 0,-8.02873 5.78539,-14.5373 12.92204,-14.5373 7.13665,0 12.92205,6.50857 12.92205,14.5373 z"
+       d="m 361.81728,598.18304 a 12.922046,14.537302 0 1 1 -25.84409,0 12.922046,14.537302 0 1 1 25.84409,0 z"
        transform="matrix(0.41130954,0,0,0.36560846,743.40525,-270.26785)"
        inkscape:label="#path7180-8-6"
        onmouseout="document.getElementById('gouv2').setAttribute(&quot;style&quot;,'opacity:0');"
@@ -4636,7 +4883,7 @@
        sodipodi:cy="598.18304"
        sodipodi:rx="12.922046"
        sodipodi:ry="14.537302"
-       d="m 361.81728,598.18304 c 0,8.02873 -5.7854,14.53731 -12.92205,14.53731 -7.13665,0 -12.92204,-6.50858 -12.92204,-14.53731 0,-8.02873 5.78539,-14.5373 12.92204,-14.5373 7.13665,0 12.92205,6.50857 12.92205,14.5373 z"
+       d="m 361.81728,598.18304 a 12.922046,14.537302 0 1 1 -25.84409,0 12.922046,14.537302 0 1 1 25.84409,0 z"
        transform="matrix(0.41130954,0,0,0.36560846,735.40525,-126.26785)"
        inkscape:label="#path7180-8-6"
        onmouseout="document.getElementById('gouv1').setAttribute(&quot;style&quot;,'opacity:0');"
@@ -4649,7 +4896,7 @@
        sodipodi:cy="598.18304"
        sodipodi:rx="12.922046"
        sodipodi:ry="14.537302"
-       d="m 361.81728,598.18304 c 0,8.02873 -5.7854,14.53731 -12.92205,14.53731 -7.13665,0 -12.92204,-6.50858 -12.92204,-14.53731 0,-8.02873 5.78539,-14.5373 12.92204,-14.5373 7.13665,0 12.92205,6.50857 12.92205,14.5373 z"
+       d="m 361.81728,598.18304 a 12.922046,14.537302 0 1 1 -25.84409,0 12.922046,14.537302 0 1 1 25.84409,0 z"
        transform="matrix(0.41130954,0,0,0.36560846,1156.5022,-120.49775)"
        inkscape:label="#path7180-8-6"
        onmouseout="document.getElementById('gouv3').setAttribute(&quot;style&quot;,'opacity:0');"
@@ -4662,7 +4909,7 @@
        sodipodi:cy="598.18304"
        sodipodi:rx="12.922046"
        sodipodi:ry="14.537302"
-       d="m 361.81728,598.18304 c 0,8.02873 -5.7854,14.53731 -12.92205,14.53731 -7.13665,0 -12.92204,-6.50858 -12.92204,-14.53731 0,-8.02873 5.78539,-14.5373 12.92204,-14.5373 7.13665,0 12.92205,6.50857 12.92205,14.5373 z"
+       d="m 361.81728,598.18304 a 12.922046,14.537302 0 1 1 -25.84409,0 12.922046,14.537302 0 1 1 25.84409,0 z"
        transform="matrix(0.41130954,0,0,0.36560846,1146.5022,-262.49775)"
        inkscape:label="#path7180-8-6"
        onmouseout="document.getElementById('gouv4').setAttribute(&quot;style&quot;,'opacity:0');"
@@ -4740,8 +4987,8 @@
        sodipodi:cy="446.88742"
        sodipodi:rx="13.460464"
        sodipodi:ry="13.998883"
-       d="m 181.98547,446.88742 c 0,7.73137 -6.02645,13.99888 -13.46046,13.99888 -7.43401,0 -13.46046,-6.26751 -13.46046,-13.99888 0,-7.73137 6.02645,-13.99888 13.46046,-13.99888 7.43401,0 13.46046,6.26751 13.46046,13.99888 z"
-       transform="matrix(0.39485718,0,0,0.37967033,519.60829,37.48981)"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
+       transform="matrix(0.39485718,0,0,0.37967033,701.60829,37.48981)"
        inkscape:label="#path3242"
        onmouseover="document.getElementById('desc1').setAttribute(&quot;style&quot;,'opacity:1');"
        onmouseout="document.getElementById('desc1').setAttribute(&quot;style&quot;,'opacity:0');">
@@ -4759,7 +5006,7 @@
        sodipodi:rx="13.460464"
        sodipodi:ry="13.998883"
        d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
-       transform="matrix(0.39485718,0,0,0.37967033,1067.3646,37.48981)"
+       transform="matrix(0.39485718,0,0,0.37967033,849.36457,37.48981)"
        inkscape:label="#path3242"
        onmouseover="document.getElementById('desc2').setAttribute(&quot;style&quot;,'opacity:1');"
        onmouseout="document.getElementById('desc2').setAttribute(&quot;style&quot;,'opacity:0');">
@@ -4776,7 +5023,7 @@
        sodipodi:cy="446.88742"
        sodipodi:rx="13.460464"
        sodipodi:ry="13.998883"
-       d="m 181.98547,446.88742 c 0,7.73137 -6.02645,13.99888 -13.46046,13.99888 -7.43401,0 -13.46046,-6.26751 -13.46046,-13.99888 0,-7.73137 6.02645,-13.99888 13.46046,-13.99888 7.43401,0 13.46046,6.26751 13.46046,13.99888 z"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
        transform="matrix(-0.39485718,0,0,0.37967033,1422.1327,37.48981)"
        inkscape:label="#path3242"
        onmouseover="document.getElementById('desc6').setAttribute(&quot;style&quot;,'opacity:1');"
@@ -4794,7 +5041,7 @@
        sodipodi:cy="446.88742"
        sodipodi:rx="13.460464"
        sodipodi:ry="13.998883"
-       d="m 181.98547,446.88742 c 0,7.73137 -6.02645,13.99888 -13.46046,13.99888 -7.43401,0 -13.46046,-6.26751 -13.46046,-13.99888 0,-7.73137 6.02645,-13.99888 13.46046,-13.99888 7.43401,0 13.46046,6.26751 13.46046,13.99888 z"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
        transform="matrix(0.39485718,0,0,0.37967033,1309.0461,37.48981)"
        inkscape:label="#path3242"
        onmouseover="document.getElementById('desc7').setAttribute(&quot;style&quot;,'opacity:1');"
@@ -4812,7 +5059,7 @@
        sodipodi:cy="446.88742"
        sodipodi:rx="13.460464"
        sodipodi:ry="13.998883"
-       d="m 181.98547,446.88742 c 0,7.73137 -6.02645,13.99888 -13.46046,13.99888 -7.43401,0 -13.46046,-6.26751 -13.46046,-13.99888 0,-7.73137 6.02645,-13.99888 13.46046,-13.99888 7.43401,0 13.46046,6.26751 13.46046,13.99888 z"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
        transform="matrix(0.39485718,0,0,0.37967033,1374.5153,37.48981)"
        inkscape:label="#path3242"
        onmouseover="document.getElementById('desc8').setAttribute(&quot;style&quot;,'opacity:1');"
@@ -4825,12 +5072,48 @@
     <path
        sodipodi:type="arc"
        style="fill:#b3b3b3;display:inline"
+       id="eventGouv1-06"
+       sodipodi:cx="168.52501"
+       sodipodi:cy="446.88742"
+       sodipodi:rx="13.460464"
+       sodipodi:ry="13.998883"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
+       transform="matrix(0.39485718,0,0,0.37967033,1418.199,37.48981)"
+       inkscape:label="#path3242"
+       onmouseover="document.getElementById('desc9').setAttribute(&quot;style&quot;,'opacity:1');"
+       onmouseout="document.getElementById('desc9').setAttribute(&quot;style&quot;,'opacity:0');">
+      <desc
+         id="desc3266-4">Lancé en 2013, le label &quot;collège connecté&quot; assure aux établissements sélectionnés une qualité des infrastructures et de l’équipement matériel et logiciel significativement supérieure à la moyenne nationale</desc>
+      <title
+         id="title3264-90">site</title>
+    </path>
+    <path
+       sodipodi:type="arc"
+       style="fill:#b3b3b3;fill-opacity:1;display:inline"
+       id="eventGouv1-73"
+       sodipodi:cx="168.52501"
+       sodipodi:cy="446.88742"
+       sodipodi:rx="13.460464"
+       sodipodi:ry="13.998883"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
+       transform="matrix(0.39485718,0,0,0.37967033,1069.2075,37.48981)"
+       inkscape:label="#path3242"
+       onmouseover="document.getElementById('desc3').setAttribute(&quot;style&quot;,'opacity:1');"
+       onmouseout="document.getElementById('desc3').setAttribute(&quot;style&quot;,'opacity:0');">
+      <desc
+         id="desc3266-2">Lancé en 2013, le label &quot;collège connecté&quot; assure aux établissements sélectionnés une qualité des infrastructures et de l’équipement matériel et logiciel significativement supérieure à la moyenne nationale</desc>
+      <title
+         id="title3264-4">Très haut débit</title>
+    </path>
+    <path
+       sodipodi:type="arc"
+       style="fill:#b3b3b3;display:inline"
        id="eventGouv1-5"
        sodipodi:cx="168.52501"
        sodipodi:cy="446.88742"
        sodipodi:rx="13.460464"
        sodipodi:ry="13.998883"
-       d="m 181.98547,446.88742 c 0,7.73137 -6.02645,13.99888 -13.46046,13.99888 -7.43401,0 -13.46046,-6.26751 -13.46046,-13.99888 0,-7.73137 6.02645,-13.99888 13.46046,-13.99888 7.43401,0 13.46046,6.26751 13.46046,13.99888 z"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
        transform="matrix(0.39485718,0,0,0.37967033,1219.0461,37.48981)"
        inkscape:label="#path3242"
        onmouseover="document.getElementById('desc5').setAttribute(&quot;style&quot;,'opacity:1');"
@@ -4839,6 +5122,24 @@
          id="desc3266-9">Lancé en 2013, le label &quot;collège connecté&quot; assure aux établissements sélectionnés une qualité des infrastructures et de l’équipement matériel et logiciel significativement supérieure à la moyenne nationale</desc>
       <title
          id="title3264-9">Résultat</title>
+    </path>
+    <path
+       sodipodi:type="arc"
+       style="fill:#b3b3b3;display:inline"
+       id="eventGouv1-9"
+       sodipodi:cx="168.52501"
+       sodipodi:cy="446.88742"
+       sodipodi:rx="13.460464"
+       sodipodi:ry="13.998883"
+       d="m 181.98547,446.88742 a 13.460464,13.998883 0 1 1 -26.92092,0 13.460464,13.998883 0 1 1 26.92092,0 z"
+       transform="matrix(0.39485718,0,0,0.37967033,1076.7432,37.48981)"
+       inkscape:label="#path3242"
+       onmouseover="document.getElementById('desc4').setAttribute(&quot;style&quot;,'opacity:1');"
+       onmouseout="document.getElementById('desc4').setAttribute(&quot;style&quot;,'opacity:0');">
+      <desc
+         id="desc3266-6">Lancé en 2013, le label &quot;collège connecté&quot; assure aux établissements sélectionnés une qualité des infrastructures et de l’équipement matériel et logiciel significativement supérieure à la moyenne nationale</desc>
+      <title
+         id="title3264-0">Plan numérique</title>
     </path>
     <rect
        style="opacity:0.75;fill:#ffaaaa;fill-opacity:1;display:inline"
